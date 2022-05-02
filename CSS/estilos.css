@@ -25,7 +25,9 @@ body{
 	background-color: black;
 }
 blockquote{
-	margin: 150px;
+	width: 70%;
+	text-align: justify;
+	margin: 70px;
 }
 .botones .angelospng img{
 	position: absolute;
