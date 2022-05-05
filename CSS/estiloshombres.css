@@ -130,6 +130,11 @@ blockquote{
 	height: 759px;
 	object-fit: cover;
 }
+@media screen and (max-width: 400px){
+	.secciones{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
 footer{
 	clear: both;
 	background: #fff;
