@@ -1,0 +1,218 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+h1{
+	color: white;
+	font: sans-serif;
+	font-family: Bold;
+	text-align: center;
+}
+}
+h1{
+	color: black;
+	font: sans-serif;
+	font-family: Bold;
+}
+h2{
+	color: black;
+	font: sans-serif;
+	font-family: Bold;
+}
+p{
+	color: black;
+	font: sans-serif;
+	font-family: Bold;
+}
+blockquote{
+	width: 100%;
+	text-align: justify;
+	margin: 0%;
+	padding: 10%;
+}
+.botones .angelospng img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 1%;
+}
+.botones .botonropa img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 10%;
+}
+.botones .botoncalzado img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 18%;
+}
+.botones .botonaccesorios img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 26%;
+}
+.botones .botonjoyeria img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 34%;
+}
+.botones .hombresicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 47%;
+}
+.botones .mujeresicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 51%;
+}
+.botones .carritoicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 96%;
+}
+.botones .puntosdeventaicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 94%;
+}
+.botones .usuarioicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 92%;
+}
+.botones .favoritosicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 90%;
+}
+.botones .seccionhombres img{
+	position: absolute;
+	width: 10%;
+	top: 5%;
+	left: 45%;
+}
+.catalogo {
+	background: #fff;
+	height: 750px
+}	
+.ropa{
+	margin: 50px 20px;
+	border-radius: 15px; 
+	box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.2);
+	float: left;
+	width: 260px;
+	cursor: pointer;
+	overflow: hidden;
+	display: grid;
+	transition: transform .2s;
+}
+.ropa:hover{
+	transform: scale(1.2);
+}
+.ropa img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	vertical-align: top;
+}
+.pie{
+	text-align: center;
+	padding: 10px;
+}
+.precio{  
+	font-size: 0.75em; 
+} 
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	position: absolute;
+	height: 25px;
+	top: 1px;
+	left: 5px;
+}
+.lineaf{
+	background: #000;
+	height: 5px;
+	width: 100%;
+	display: block;
+}
+.ropa{
+	margin: 10px 5px;
+	border-radius: 15px;
+	box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.2);
+	float: left;
+	width: 350px;
+	cursor: pointer;
+	overflow: hidden;
+	display: grid;
+	margin: 10%;
+}
+.ropa img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	vertical-align: center;
+}
+.pie{
+	text-align: center;
+	padding: 10px;
+}
+.precio{  
+	font-size: 0.75em; 
+}
+.comprar{
+	color: #fff;
+	background-color: black;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.carrito{
+	color: #fff;
+	background-color: black;
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+footer{
+	clear: both;
+	background: #fff;
+	padding: 1.5%;
+	color: #000000;
+	text-align: center;
+}
+header{
+	display: flex;
+	height: 35px;
+	background: #000;
+}
+@media screen and (max-width: 400px){
+	.secciones{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+	.botones{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
