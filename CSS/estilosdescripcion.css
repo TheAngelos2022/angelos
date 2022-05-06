@@ -160,7 +160,7 @@ blockquote{
 	border-radius: 15px;
 	box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.2);
 	float: left;
-	width: 350px;
+	width: 300px;
 	cursor: pointer;
 	overflow: hidden;
 	display: grid;
