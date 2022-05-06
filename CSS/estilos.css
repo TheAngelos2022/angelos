@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1{
+	color: white;
+	font: Times New Roman;
+	font-family: Bold;
+	text-align: center;
+}
+h2{	
+	color: white;
+	font: times new roman;
+	text-align: center;
+}
+body{
+	color: white;
+	font: Times New Roman;
+	font-style: normal;
+	font-family: light;
+	text-align: justify;
+	background-color: black;
+}
+blockquote{
+	width: 70%;
+	text-align: justify;
+	margin: 15%;
+}
+.botones .angelospng img{
+	padding: 1px 0;
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 1%;
+}
+.botones .botonropa img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 10%;
+}
+.botones .botoncalzado img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 18%;
+}
+.botones .botonaccesorios img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 26%;
+}
+.botones .botonjoyeria img{
+	position: absolute;
+	width: 7%;
+	top: 1%;
+	left: 34%;
+}
+.botones .hombresicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 47%;
+}
+.botones .mujeresicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 51%;
+}
+.botones .carritoicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 96%;
+}
+.botones .puntosdeventaicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 94%;
+}
+.botones .usuarioicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 92%;
+}
+.botones .favoritosicon img{
+	position: absolute;
+	width: 2%;
+	top: 1%;
+	left: 90%;
+}	
+.portada{
+	background: #fff;
+	float: left;
+}
+.portada .homeangelos{
+	width: 100%;
+}
+.portada .homeangelos img{
+	width: 100%;
+	vertical-align: top;
+}
+.portada .logo{
+	width: 10%;
+}
+.portada .logo img{
+	position: absolute;
+	width: 50%;
+	top: 4%;
+	left: 26%;
+}
+.seccion02{
+	background: #000000;
+	float: left;
+}
+.seccion02 .seccionroia{
+	width: 100%;
+}
+.seccion02 .seccionroia img{
+	width: 49.5%;
+	vertical-align: top;
+}
+.seccion03{
+	background: #000000;
+	float: left;
+}
+.seccion03 .seccioncais{
+	width: 100%;
+}
+.seccion03 .seccioncais img{
+	width: 49.5%;
+	vertical-align: top;
+}
+.home02{
+	background: #000000;
+	float: left;
+}
+.home02 .homecarac01{
+	width: 100%;
+}
+.home02 .homecarac01 img{
+	width: 100%;
+	vertical-align: top;
+}
+.home02 .homecarac02 img{
+	width: 100%;
+	vertical-align: top;
+}
+footer{
+	clear: both;
+	background: #fff;
+	padding: 1%;
+	color: #000000;
+	text-align: center;
+}
+header{
+	display: flex;
+	height: 35px;
+	background: #000;
+}
+
+@media screen and (max-width: 400px){
+	.secciones{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+	.botones{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
